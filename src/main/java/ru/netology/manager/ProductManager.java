@@ -7,7 +7,6 @@ import ru.netology.domain.Smartphone;
 import ru.netology.repository.ProductRepository;
 
 @NoArgsConstructor
-
 public class ProductManager {
     private ProductRepository repository;
 
