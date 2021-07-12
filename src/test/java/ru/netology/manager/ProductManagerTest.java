@@ -75,4 +75,13 @@ class ProductManagerTest {
         assertArrayEquals(expected, actual);
     }
 
+    @Test
+    public void searchFindASmartphoneByManufacturer(){
+        String text = "Nokia";
+
+        Product[] expected = new Product[]{smartphone2};
+        Product[] actual = manager.searchBy(text);
+        assertArrayEquals(expected, actual);
+    }
+
 }
